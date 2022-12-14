@@ -10,7 +10,7 @@ import Avis from './pages/Avis'
 
 function App() {
   return (
-    <>
+    <main>
     <Navbar />
       <Routes>
         <Route path='*' element={<ErrorPage />} />
@@ -21,7 +21,7 @@ function App() {
         <Route path='/avis' element={<Avis />} />
       </Routes>
     <Footer />    
-    </>
+    </main>
     
   );
 }
