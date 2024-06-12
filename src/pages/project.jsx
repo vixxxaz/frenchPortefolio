@@ -12,7 +12,7 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Mes réalisations :
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base font-bold">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base font-bold text-white">
             Une partie des projets que j'ai réalisés, pendant ma formation openClassRoom developpeur web.
             Formation de six mois ,certification de niveau cinq, j'espere ajouter de nouveaux projetx au plus vite !
           </p>
