@@ -23,8 +23,8 @@ export default function Navbar() {
           </Link>
         </nav>
         <Link
-          target='iframe'
-          to="https://beamish-piroshki-5ea924.netlify.app/contact"
+          target='contact'
+          to="/contact"
           className="inline-flex items-center bg-gray-300 font-bold border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded hover:text-white  text-base mt-4 md:mt-0">
           Contactez moi
           <FaArrowRight className="w-4 h-4 ml-1" />
