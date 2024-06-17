@@ -8,7 +8,7 @@ export default function Navbar() {
       <h1 className='text-xl text-center text-black'>Mon portefolio</h1>
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a href="#about" className="title-font font-medium text-black mb-4 md:mb-0">
-          <Link target='about' to="/about" className="ml-3 text-xl">
+          <Link  to="/about" className="ml-3 text-xl">
             Gardet Vincent
           </Link>
         </a>
