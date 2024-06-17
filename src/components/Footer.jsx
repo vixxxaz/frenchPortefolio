@@ -12,7 +12,7 @@ const Footer = () => {
         <Link
          target='iframe'
           to="/"
-          className=" inline-flex items-center bg-gray-600 font-bold border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded hover:text-white text-black text-base mt-4 md:mt-0">
+          className=" inline-flex items-center bg-gray-400 font-bold border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded hover:text-white text-black text-base mt-4 md:mt-0">
           retour a l'accueil
           <FaArrowLeft className="w-4 h-4 ml-1" />
         </Link>
