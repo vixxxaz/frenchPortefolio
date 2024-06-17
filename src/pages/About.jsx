@@ -16,7 +16,7 @@ const About = () => {
             Bonjour à tous, je m'appel Vincent.
             <br className="hidden lg:inline-block" />J'aime coder et construire des sites internet ou des applications web !
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 leading-relaxed font-bold text-white">
             Je fini tous juste une formation de six mois où j'ai appris enormement de chose, Html, css, sass, javascript, et fini par developpez un projet MERN.
             J'ai developpez une API restfull et un reseau social avec react mongoo et node.js
             Ce diplome et de niveau 5, Bac +2. J'ai pu lors de cette formation realiser auprés de OPENCLASSROOM developpez plusieurs projet dont vous avez un apercu
@@ -25,12 +25,12 @@ const About = () => {
           <div className="flex justify-center">
             <Link
               to="/contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              className="inline-flex font-semibold text-black bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
               Contactez-moi ici pour une mission.
             </Link>
             <Link
               to="/"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              className="ml-4 inline-flex font-semibold text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               Regardez ici mes projets
             </Link>
           </div>
