@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="bg-slate-500 md:sticky top-0 z-10">
+    <header className="bg-slate-400 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a href="#about" className="title-font font-medium text-white mb-4 md:mb-0">
           <Link to="/about" className="ml-3 text-xl">
@@ -23,6 +23,7 @@ export default function Navbar() {
           </Link>
         </nav>
         <Link
+          target='iframe_a'
           to="/contact"
           className="inline-flex items-center bg-gray-600 font-bold border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded hover:text-white  text-base mt-4 md:mt-0">
           Contactez moi

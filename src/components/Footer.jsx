@@ -10,6 +10,7 @@ const Footer = () => {
         <div className="justify-around container  mx-auto  flex flex-wrap p-5 flex-col md:flex-row items-center ">
         <p className='text-white'>{moment().format("MMM Do YY")}</p>   
         <Link
+         target='iframe'
           to="/"
           className=" inline-flex items-center bg-gray-600 font-bold border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded hover:text-white  text-base mt-4 md:mt-0">
           retour a l'accueil
