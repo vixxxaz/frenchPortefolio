@@ -8,20 +8,23 @@ import Projects from './pages/project';
 import Skills from './pages/Skills';
 import Avis from './pages/Avis'
 
+
 function App() {
   return (
-    <main>
-    <Navbar />
-      <Routes>
-        <Route path='*' element={<ErrorPage />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/' element={<Projects />} />
-        <Route path='/connaissance' element={<Skills />} />
-        <Route path='/avis' element={<Avis />} />
-      </Routes>
-    <Footer />    
-    </main>
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+        <main className="flex-grow">        
+          <Routes>
+            <Route path='*' element={<ErrorPage />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/' element={<Projects />} />
+            <Route path='/connaissance' element={<Skills />} />
+            <Route path='/avis' element={<Avis />} />
+          </Routes>
+        </main>
+      <Footer />
+    </div>
     
   );
 }
