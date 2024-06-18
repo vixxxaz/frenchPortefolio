@@ -22,14 +22,11 @@ export default function Navbar() {
           <Link to="/avis" className="mr-5 font-bold hover:text-white">
             Avis
           </Link>
+          
         </nav>
-        <a href="#contact">
-          <Link
-            target='contact'
-            to="/contact"
-            className="inline-flex items-center bg-gray-300 font-bold border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded hover:text-white  text-base mt-4 md:mt-0">
+        <a href="#about" className="title-font font-medium text-black mb-4 md:mb-0">
+          <Link  to="/about" className="ml-3 text-xl">
             Contactez moi
-            <FaArrowRight className="w-4 h-4 ml-1" />
           </Link>
         </a>
       </div>
