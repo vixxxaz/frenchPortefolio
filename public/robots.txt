@@ -1,3 +1,5 @@
 # https://https://beamish-piroshki-5ea924.netlify.app//robotstxt.html
 User-agent: *
 Disallow:/avis
+Disallow:/connaissance
+Disallow:/ErrorPage

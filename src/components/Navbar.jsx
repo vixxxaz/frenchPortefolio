@@ -11,10 +11,10 @@ export default function Navbar() {
   };
   return (
     <header className="bg-slate-400 md:sticky top-0 z-10">
-      <h1 className=' sm:mx-auto font-bold text-xl text-center text-black'>Mon portefolio</h1>
+      <h1 className=' sm:mx-auto font-bold text-m text-center text-black'>Mon portefolio</h1>
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a href="#about" className="title-font font-medium text-black mb-4 md:mb-0">
-          <Link  to="/about" aria-label="About Gardet Vincent" className="sm:text-xl font-bold md:text-l  text-xl sm:mx-auto">
+          <Link  to="/about" aria-label="About Gardet Vincent" className="sm:text-xl font-bold md:text-l  text-sm sm:mx-auto">
             Gardet Vincent
           </Link>
         </a>

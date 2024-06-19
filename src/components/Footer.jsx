@@ -8,7 +8,7 @@ const Footer = () => {
   const location = useLocation();
 
   return (
-    <footer className=" bg-slate-500  py-4" role="contentinfo">
+    <footer className=" bg-slate-500 fixed bottom-0 w-full " role="contentinfo">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-around">
         <p className='text-white'>{moment().format("MMM Do YY")}</p>   
             {location.pathname !== "/" && (
@@ -22,6 +22,9 @@ const Footer = () => {
                 <FaArrowLeft className="w-4 h-4 ml-1" aria-hidden="true"/>
               </Link>
             )}
+          <Link to="/privacy-policy" className="mr-5 font-bold hover:text-white">Politique de Confidentialité</Link>
+          <Link to="/cookie-policy" className="mr-5 font-bold hover:text-white">Politique de Cookies</Link>
+          <Link to="/terms-and-conditions" className="mr-5 font-bold hover:text-white">Termes et Conditions</Link>
         </div>        
     </footer>
   )
