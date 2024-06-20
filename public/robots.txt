@@ -3,3 +3,4 @@ User-agent: *
 Disallow:/avis
 Disallow:/connaissance
 Disallow:/ErrorPage
+google-site-verification=f7ECQCzp9DnfZIuP9LnIf_UlJOY3go85SohY9XYifsM
